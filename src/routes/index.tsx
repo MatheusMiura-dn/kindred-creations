@@ -1,2 +1,3 @@
 import { createFileRoute } from "@tanstack/react-router";
-export const Route = createFileRoute("/")({ component: () => <div>MathBoard</div> });
+import MathBoard from "../components/MathBoard";
+export const Route = createFileRoute("/")({ component: MathBoard });
